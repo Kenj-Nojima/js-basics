@@ -11,7 +11,7 @@ console.log (PI);
 
 /* DATA TYPES */
 
-let messages = "This is string";
+let messages = "This is string"; 
 let ages = 21;
 let isBoolean = true; 
 
@@ -33,3 +33,16 @@ let add = function(a,b){
 
 console.log(add(1, 2)); 
 
+let prutas = ["Atis", "Mansanas", "Saging"];
+console.log(prutas[1]);
+
+let animal = {
+    name: "lion",
+    age: 3,
+};
+
+console.log(animal["age"], animal["name"])
+
+
+
+    
