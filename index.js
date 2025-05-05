@@ -43,6 +43,22 @@ let animal = {
 
 console.log(animal["age"], animal["name"])
 
+//Arithmetic Operators
 
+let x = 4;
+let y = 3;
+let w = "11"
+let z = 11;
 
+//Comparison Operators
+let isGreater = y > x;
+//let isEqual = w === z;
+let isEqual = w !== z
+console.log(isEqual);
     
+//Logical Operators
+//AND - &&
+//OR - || 
+
+//console.log(x > 6 && x < 7); //false
+console.log(x > 8 || y < 2); //true
