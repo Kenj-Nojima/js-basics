@@ -62,3 +62,15 @@ console.log(isEqual);
 
 //console.log(x > 6 && x < 7); //false
 console.log(x > 8 || y < 2); //true
+
+//Ternary Operators
+let isHot= true;
+condition = isHot?  "It is very Hot" : "No it is cold";
+
+console.log(condition);
+
+let grade = 90
+
+const finalMark = grade >= 90 ? "A" : grade >= 80 ? "B" : grade >= 70 ? "C" : "F"
+console.log(finalMark)
+
