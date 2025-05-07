@@ -74,3 +74,24 @@ let grade = 90
 const finalMark = grade >= 90 ? "A" : grade >= 80 ? "B" : grade >= 70 ? "C" : "F"
 console.log(finalMark)
 
+//Destructuring
+
+const objects = ["tables", "chair", "plates" , "spoons", 21 ];
+const [furniture, chair, plates, spoons, count] = objects;
+
+
+const persons = { 
+    names: "Kenji Noji",
+    kilo: 21,
+    birthday: new Date(),
+    status: "Single",
+};
+
+/*let names = persons.names;
+let kilo = persons.kilo;
+let birthday = persons.birthday;
+let status = persons.status; */
+
+const {names, kilo, birthday, status} = persons;
+
+console.log (names, kilo, birthday, status);
