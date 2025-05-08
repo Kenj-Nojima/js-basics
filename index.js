@@ -95,3 +95,28 @@ let status = persons.status; */
 const {names, kilo, birthday, status} = persons;
 
 console.log (names, kilo, birthday, status);
+
+/* spread Operators */
+
+const body = ["head", "knees"];
+const completeBody = [...body,"Toes", "Shoulder"];
+console.log(completeBody);
+
+const woman = {
+    naame: "Naomi",
+    aage: 21,
+};
+
+const contactPerson = {
+    contactNumber: "0912345678",
+    ...woman
+};
+console.log(contactPerson)
+
+const numbers = [1,2,3];
+
+function sum( a, b, c) {
+    return a + b + c ;
+}
+
+console.log(sum(...numbers))
