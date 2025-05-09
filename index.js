@@ -122,9 +122,28 @@ function sum( a, b, c) {
 console.log(sum(...numbers))
 
 //Array Methods
-
+//push method
 let salad = ["Macaroni", "Nestle Cream", "Condense Milk", "Cheese"];
 
 salad.push("kaong");
 
 console.log(salad)
+
+//pop method
+
+let salads = ["Macaroni", "Nestle Cream", "Condense Milk", "Cheese"];
+
+salad.pop();
+
+console.log(salads)
+
+//splice method
+
+const months = ["Jan", "March", "April", "June"];
+
+months.splice(1, 0, "Feb");
+
+console.log(months);
+months.splice(4, 1, "May"); 
+console.log(months);
+
