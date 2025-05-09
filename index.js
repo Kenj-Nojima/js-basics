@@ -120,3 +120,11 @@ function sum( a, b, c) {
 }
 
 console.log(sum(...numbers))
+
+//Array Methods
+
+let salad = ["Macaroni", "Nestle Cream", "Condense Milk", "Cheese"];
+
+salad.push("kaong");
+
+console.log(salad)
