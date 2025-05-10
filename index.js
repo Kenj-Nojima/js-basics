@@ -147,3 +147,42 @@ console.log(months);
 months.splice(4, 1, "May"); 
 console.log(months);
 
+//Array Iterators
+
+let students = [{
+    id: 1,
+    f_name: "Alex",
+    l_name: "B",
+    gender: "M",
+    married: false,
+    age: 22,
+    paid: 250,
+    courses: ["Javascript","React",],
+},
+{
+    id: 2,
+    f_name: "Ibrahim",
+    l_name: "M",
+    gender: "M",
+    married: true,
+    age: 32,
+    paid: 150,
+    courses: ["Javascript","PWA",],
+ },
+ {
+    id: 3,
+    f_name: "Rubi",
+    l_name: "S",
+    gender: "F",
+    married: false,
+    age: 27,
+    paid: 350,
+    courses: ["Blogging","React","UX"],
+},
+];
+
+const newStudents = students.map((students, index) => {
+    return students;
+})
+
+console.log(newStudents)
