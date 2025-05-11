@@ -156,7 +156,7 @@ let students = [{
     gender: "M",
     married: false,
     age: 22,
-    paid: 250,
+    paid: 0,
     courses: ["Javascript","React",],
 },
 {
@@ -181,8 +181,11 @@ let students = [{
 },
 ];
 
-const newStudents = students.map((students, index) => {
+/*const newStudents = students.map((students, index) => {
     return students;
 })
 
-console.log(newStudents)
+console.log(newStudents)*/
+
+const newStudents = students.filter((students, index) => students.paid > 25)
+console.log(newStudents); 
