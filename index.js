@@ -165,7 +165,7 @@ let students = [{
     l_name: "M",
     gender: "M",
     married: true,
-    age: 32,
+    age: 28,
     paid: 150,
     courses: ["Javascript","PWA",],
  },
@@ -175,7 +175,7 @@ let students = [{
     l_name: "S",
     gender: "F",
     married: false,
-    age: 33,
+    age: 29,
     paid: 350,
     courses: ["Blogging","React","UX"],
 },
@@ -192,3 +192,6 @@ console.log(newStudents);
 
 let hasStudentBelow30 = students.some((students, index) => students.age < 30);
 console.log(hasStudentBelow30)
+
+let studentAbove30  = students.find((student, index) => student.age > 30)
+console.log(studentAbove30)
