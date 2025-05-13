@@ -195,3 +195,14 @@ console.log(hasStudentBelow30)
 
 let studentAbove30  = students.find((student, index) => student.age > 30)
 console.log(studentAbove30)
+
+//reduce method
+
+let totalCost = students.reduce((accumulator, students, currentIndex, ) =>
+    {
+    accumulator = accumulator + students.paid;
+    return accumulator
+    },
+    0
+);
+console.log(totalCost);
