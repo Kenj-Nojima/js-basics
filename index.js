@@ -206,3 +206,13 @@ let totalCost = students.reduce((accumulator, students, currentIndex, ) =>
     0
 );
 console.log(totalCost);
+
+//promises
+
+let promise = new Promise((resolve, reject) => {
+    const i = "Promise";
+    i === "Promisesds" ? resolve() : reject();
+
+});
+
+promise.then(() => console.log("Promise was resolved")) .catch(() => console.log("Promise was rejected!"))
