@@ -65,7 +65,7 @@ console.log(x > 8 || y < 2); //true
 
 //Ternary Operators
 let isHot= true;
-condition = isHot?  "It is very Hot" : "No it is cold";
+let condition = isHot?  "It is very Hot" : "No it is cold";
 
 console.log(condition);
 
@@ -215,4 +215,15 @@ let promise = new Promise((resolve, reject) => {
 
 });
 
-promise.then(() => console.log("Promise was resolved")) .catch(() => console.log("Promise was rejected!"))
+promise.then(() => console.log("Promise was resolved")) .catch(() => console.log("Promise was rejected!"))  
+
+//Fetch API
+import fetch from "node-fetch";
+
+const url = "https://jsonplaceholder.typicode.com/posts/1"
+
+const fetchPromise = fetch(url);
+
+fetchPromise
+.then((response) => response.json())
+.then(response => console.log(response));
