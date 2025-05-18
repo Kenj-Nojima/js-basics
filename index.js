@@ -235,3 +235,9 @@ const fetchPromise = async() => {
 }
 
 fetchPromise();
+
+//modules
+
+import messagesss from "./person.js";
+
+console.log(messagesss)
